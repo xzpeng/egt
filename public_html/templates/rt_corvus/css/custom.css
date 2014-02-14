@@ -1,0 +1,16 @@
+.logo-block #rt-logo {
+width: 124px;
+height: 128px;
+top: 0px;
+}
+.logo-block {
+background-color:transparent;
+background-image: none;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+-webkit-box-shadow: none;
+}
+.logo-block:before {
+content:none;
+}

@@ -1,0 +1,150 @@
+/**
+* @version   $Id: master-ie8.css 13156 2013-09-02 07:32:17Z arifin $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Body Overflow */
+body #rt-page-surround {overflow: visible !important;}
+
+/* Navigation */
+.dropdown {zoom: 1;}
+.gf-menu.l1 > li.active > .item {zoom: 1;}
+.gf-menu li.modules:hover {filter: none;}
+.gf-menu .item {padding: 6px 10px;}
+body #rt-navigation {filter: none !important;}
+body .menu-block .l1.gf-menu > li {border-right: 0; border-left: 1px solid #888; border-top: 1px solid transparent;}
+body .menu-block .l1.gf-menu > li > .item {border: 0;}
+
+/* Pagination */
+body .pagination ul li a {filter: none;}
+
+/* Button  Disabled */
+.btn.disabled:hover, .btn.disabled.btn-primary:hover {filter: alpha(opacity=65);zoom: 1;}
+
+/* Module Variations */
+body [class^="box"] .module-content [class*="custom"], body [class*=" box"] .module-content [class*="custom"] {filter: none;}
+body .box6 {border: 1px solid #c8c8c8;}
+body .box6:before {border-color: #c8c8c8 transparent transparent transparent;}
+body .title4 .module-title {border-bottom: 1px solid #c8c8c8;}
+
+/* Error Image */
+body .rt-error-img {width: 500px; height: 428px;}
+
+/* Social Buttons */
+body .social-button {filter: none !important;}
+
+/* RokAjaxSearch */
+body .rokajaxsearch .inputbox {padding-top: 7px;}
+
+/* RokSprocket Strips */
+body .sprocket-strips .sprocket-strips-item {filter: none !important;}
+body .fp-roksprocket-strips-showcase .sprocket-strips-item:before {border-color: transparent transparent #888;}
+body .fp-roksprocket-strips-showcase .sprocket-strips-infos .sprocket-strips-date:before {border-color: #888 transparent transparent transparent;}
+body .fp-mainbottom-b .sprocket-strips-item:before {border-color: transparent transparent #888;}
+
+/* RokSprocket Tabs */
+body .fp-roksprockettabs .sprocket-tabs .sprocket-tabs-nav li.active {filter: none;}
+body .fp-roksprockettabs .rt-image-b:before {border: 0;}
+
+/* Expanded Feature */
+.-sep13-home #rt-feature .rt-container {border-top: 1px solid #424551;}
+
+/* MainBody */
+body.menu-home #rt-main #rt-mainbody:before {border-color: #c8c8c8 transparent transparent;}
+
+/* SideBar */
+body .fp-sidebar-b.rt-block:before {display: none;}
+
+/* Extension */
+body .fp-extension.rt-block {margin-left: 0;}
+
+/* MainBottom B */
+body .fp-mainbottom-b {border-left: 0; border-right: 0; border-bottom: 0;}
+
+/* Footer */
+body .fp-footer-a, body .fp-footer-c {border-left: 0; border-right: 0; border-bottom: 0;}
+body .fp-footer-b {border-left: 1px solid #888888;border-right: 1px solid #888888;border-top:0;border-bottom: 0;}
+
+/* From MediaQueries Desktop View */
+.visible-tablet{display:none !important;}
+.hidden-desktop{display:inherit !important;}
+.visible-desktop{display:none !important;}
+.visible-large{display:none !important;}
+.hidden-large{display:inherit !important;}
+.menu-block{margin:-4px 0 0 -10px;}
+body h1{font-size:150%;line-height:1.6em;}
+body h2,body .title,body .component-content h2{font-size:140%;}
+body h3{font-size:120%;line-height:1.35em;}
+body h4{font-size:115%;}
+body h5{font-size:100%;}
+body .fp-roksprocket-strips-showcase .sprocket-strips-content .sprocket-strips-title a {font-size: 24px;}
+body .fp-mainbottom-b .sprocket-strips-item{height:155px;}
+body .fp-mainbottom-b .sprocket-strips-item .sprocket-strips-content .sprocket-strips-title a{font-size:15px;}
+body .fp-mainbottom-b .sprocket-strips-item .rt-tags{display:none;}
+body .sprocket-tabs-nav li .sprocket-tabs-inner{padding:7px 10px;}
+body .sprocket-lists-pagination{margin-left:35px;}
+body .fp-mainbottom-a .readon-wrapper2{display:none;}
+body .fp-mainbottom-a .rt-image-b:before{border-width:0 0 70px 70px;}
+body .fp-mainbottom-a .rt-image-b:after{font-size:18px;bottom:10px;right:10px;}
+body .horiztitle .module-title{margin-top:0;}
+body .rt-tags .rt-tag{font-size:12px;padding:3px 8px;}
+body .rt-expanded-2 > span {margin-left: 80px;}
+
+/* Grid Layout */
+body .rt-container {width: 960px;}
+.rt-container .rt-grid-1 {width: 80px;}
+.rt-container .rt-grid-2 {width: 160px;}
+.rt-container .rt-grid-3 {width: 240px;}
+.rt-container .rt-grid-4 {width: 320px;}
+.rt-container .rt-grid-5 {width: 400px;}
+.rt-container .rt-grid-6 {width: 480px;}
+.rt-container .rt-grid-7 {width: 560px;}
+.rt-container .rt-grid-8 {width: 640px;}
+.rt-container .rt-grid-9 {width: 720px;}
+.rt-container .rt-grid-10 {width: 800px;}
+.rt-container .rt-grid-11 {width: 880px;}
+.rt-container .rt-grid-12 {width: 960px;}
+
+.rt-container .rt-push-1 {left: 80px;}
+.rt-container .rt-push-2 {left: 160px;}
+.rt-container .rt-push-3 {left: 240px;}
+.rt-container .rt-push-4 {left: 320px;}
+.rt-container .rt-push-5 {left: 400px;}
+.rt-container .rt-push-6 {left: 480px;}
+.rt-container .rt-push-7 {left: 560px;}
+.rt-container .rt-push-8 {left: 640px;}
+.rt-container .rt-push-9 {left: 720px;}
+.rt-container .rt-push-10 {left: 800px;}
+.rt-container .rt-push-11 {left: 880px;}
+
+.rt-container .rt-pull-1 {left: -80px;}
+.rt-container .rt-pull-2 {left: -160px;}
+.rt-container .rt-pull-3 {left: -240px;}
+.rt-container .rt-pull-4 {left: -320px;}
+.rt-container .rt-pull-5 {left: -400px;}
+.rt-container .rt-pull-6 {left: -480px;}
+.rt-container .rt-pull-7 {left: -560px;}
+.rt-container .rt-pull-8 {left: -640px;}
+.rt-container .rt-pull-9 {left: -720px;}
+.rt-container .rt-pull-10 {left: -800px;}
+.rt-container .rt-pull-11 {left: -880px;}
+
+.rt-container .rt-prefix-1 {padding-left: 80px;}
+.rt-container .rt-prefix-2 {padding-left: 160px;}
+.rt-container .rt-prefix-3 {padding-left: 240px;}
+.rt-container .rt-prefix-4 {padding-left: 320px;}
+.rt-container .rt-prefix-5 {padding-left: 400px;}
+.rt-container .rt-prefix-6 {padding-left: 480px;}
+.rt-container .rt-prefix-7 {padding-left: 560px;}
+.rt-container .rt-prefix-8 {padding-left: 640px;}
+.rt-container .rt-prefix-9 {padding-left: 720px;}
+.rt-container .rt-prefix-10 {padding-left: 800px;}
+.rt-container .rt-prefix-11 {padding-left: 880px;}
+
+/* Font size wackiness in IE8 */
+.promo p {
+	font-size: 1.3em !important;
+	line-height: 1.5em !important;
+}

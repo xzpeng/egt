@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6.0" type="plugin" group="system" method="upgrade">
+    <name>Installer</name>
+	<author>${author}</author>
+	<creationDate>${build_date}</creationDate>
+	<copyright>${copyright}</copyright>
+	<license>${license}</license>
+	<authorEmail>${authorEmail}</authorEmail>
+	<authorUrl>${authorUrl}</authorUrl>
+	<version>${project.version}</version>
+    <description>${project.description}</description>
+    <scriptfile>install.script.php</scriptfile>
+    <files>
+        <filename plugin="rocketlauncher">installer.php</filename>
+    </files>
+</extension>
