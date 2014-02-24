@@ -84,6 +84,14 @@ type="text/css" />
         <?php /** End Header **/ endif; ?>
         <div id="rt-transition"<?php if ($gantry->get('loadtransition')) echo $hidden; ?>>
           <div id="rt-body-surround">
+            <?php /** Begin Slider **/ if ($gantry->countModules('slider')) : ?>
+            <div id="rt-slider">
+              <div class="rt-container">
+                <?php echo $gantry->displayModules('slider','standard','standard'); ?>
+                <div class="clear"></div>
+              </div>
+            </div>
+            <?php /** End Slider **/ endif; ?> 
             <?php /** Begin Showcase **/ if ($gantry->countModules('showcase')) : ?>
             <div id="rt-showcase">
               <div class="rt-container">
